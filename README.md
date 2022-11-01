@@ -25,7 +25,7 @@ This workshop issues a suit of MealRec datasets with different interaction densi
 * Cold start problem in meal recommendation 
 * Attention mechanism designing for use preference learning
 * Exposure bias problem in meal recommendation
-* Explanation meal recommendation model
+* Explanation on meal recommendation model
 
 ## Organizing Team
 
