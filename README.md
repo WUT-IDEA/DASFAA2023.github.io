@@ -8,7 +8,7 @@
  </div>
  
 ## Workshop:
-**MealRec: Meal Recommendation**
+**Bundle-based Recommendation Systems**
 
 
 ## Abstract:
