@@ -13,19 +13,19 @@
 
 ## Abstract:
 
-Meal recommendation is an application of bundle recommendation in food scenarios. Its task is to provide courses(items) that are enjoyed as a meal(bundle) for a user. However, research on meal recommendation has made little progress compared to other well-studied domains such as product bundle, music playlist, travel package, etc. It is highlighted that the major obstacle is lacking public datasets specializing in meals for research community. 
+Bundle is a collection of items with similar styles or complementary functions, such as music playlists and fashion outfits. Bundle recommendation aims to accurately predict the probabilities of user interactions with bundles. Meal recommendation is an application of bundle recommendation in food scenarios. Its task is to provide courses(items) that are enjoyed as a meal(bundle) for a user. However, research on meal recommendation has made little progress compared to other well-studied domains such as product bundle, music playlist, travel package, etc. It is highlighted that the major obstacle is lacking public datasets specializing in meals for research community. 
 
 This workshop issues a suit of MealRec datasets with different interaction densities from a public recipe data via a category-constrained meal construction method. The workshop will bring together researchers and professionals from academia and industry from around the world for showcasing, discussing, and reviewing the whole spectrum of technological opportunities, challenges, solutions, and emerging applications in efficient but robust meal recommendation using state-of-the-art techniques. Through calling participants to submit their meal recommendation results on our breadboards, their build bundle recommendation models can be evaluated to identify promising techniques based on this public meal dataset. 
 
 **Topics of particular interest include, but are not limited to:**
 
-* Transformer exploiting on meal recommendation
-* Intelligent multimedia understanding in food scenario
-* Model distillation and designing for meal recommendation
-* Cold start problem in meal recommendation 
-* Attention mechanism designing for use preference learning
-* Exposure bias problem in meal recommendation
-* Explanation on meal recommendation model
+* GNN and Transformer exploiting on bundle recommendation
+* Multimodal learning on bundle recommendation
+* Model distillation and designing for bundle recommendation
+* Cold start problem in bundle recommendation 
+* User preference learning
+* Exposure bias problem in bundle recommendation
+* Explanation of bundle recommendation model
 
 ## Organizing Team
 
