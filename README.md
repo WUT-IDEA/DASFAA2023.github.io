@@ -6,7 +6,7 @@
  <div align='center' style = "vertical-align:middle"> 
   <h2> <a href="http://www.tjudb.cn/dasfaa2023/"> DASFAA 2023 </a><a href="http://www.tjudb.cn/dasfaa2023/">(http://www.tjudb.cn/dasfaa2023/)</a> </h2>
  </div>
- 
+
 ## Workshop:
 **Bundle-based Recommendation Systems**
 
@@ -51,3 +51,38 @@ DASFAA (Database Systems for Advanced Applications) is an annual international d
 The 28th DASFAA conference will be held from 17-20 April 2023 in Tianjin, China.
 
 The papers accepted by DASFAA 2023 workshop will be published in a combined volume of Lecture Notes in Computer Science series published by Springer, and indexed by both LNCS and DBLP.
+
+## Data Description
+
+The suit of MealRec datasets we released contains two datasets, MealRec-77 with a user-meal interaction density of 0.77% and MealRec-17 with a user-meal interaction density of 0.17%.  
+
+Each dataset contains 4 .txt files and 2 .csv files.  The .txt files only contain the ID field to record the relationship between entities, and the .csv files contain rich description information of recipes and user reviews on recipes. The detailed description and fields   of these files are as follows: 
+
+- user_recipe.txt : the interaction information between users and recipes;
+  - user_id : user  identifier
+  - recipe_id : recipe  identifier
+- recipe_category.txt : the correspondence information between recipes and categories;
+  - recipe_id : recipe  identifier
+  - category_id : category  identifier
+- meal_recipe.txt : the affiliation information between meals and recipes;
+  - meal_id : meal  identifier
+  - recipe_id : recipe  identifier
+- user_meal.txt : the interaction information between users and meals. This file is divided into training set, verification machine and test set according to the ratio of 8:1:1. The training set and verification set have been given, and the test set will be given later;
+  - user_id : user  identifier
+  - meal_id : meal  identifier
+- recipe.csv :  rich descriptive information about recipes;
+  - recipe_id : recipe  identifier
+  - recipe_name : the name of the recipe 
+  - aver_rate : average user ratings(five-point scale) 
+  - image_url : the url of the recipe image
+  - ingredients : ingredients included in the recipe 
+  - cooking_directions : food making process
+  - nutrition : nutritional content information of this food
+  - review_num : total number of the recipe’s reviews
+  - reviews : all reviews of the recipe
+  - tags : several tags selected by the creator represent features of the recipe
+- user_recipe.csv : details of the user's interaction with the recipe.
+  - user_id : user identifier 
+  - recipe_id : recipe identifier 
+  - rating : user ratings for the recipe(five-point scale) 
+  - dateLastModified : the time the user review was last modified 
