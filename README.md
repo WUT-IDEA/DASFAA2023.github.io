@@ -86,3 +86,18 @@ Each dataset contains 4 .txt files and 2 .csv files.  The .txt files only contai
   - recipe_id : recipe identifier 
   - rating : user ratings for the recipe(five-point scale) 
   - dateLastModified : the time the user review was last modified 
+
+## Task
+
+**Input** : user-meal interaction data , user-recipe interaction data, meal-recipe affiliation data, and recipe-category corresponding data .
+
+**Ouput** : A top-$K$ ranking list for a user. 
+
+## Evaluation
+
+Two widely used metrics $Recall@K$ and $NDCG@K$ ($K = 20, 40, 80$) are employed to evaluate the top-$K$ recommendation performance.  $Recall$ measures the ratio of test bundles within the top-$K$ ranking list, and $NDCG$(Normalized Discounted Cumulative Gain) accounts for the position of the hits by assigning higher scores to those at top ranks. 
+
+## Contact
+
+If you need to contact the organisers, send us an email at cathylilin@whut.edu.cn.
+
