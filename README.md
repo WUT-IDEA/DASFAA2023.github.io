@@ -115,7 +115,7 @@ An example of 3 users and 5 meals is as follows:
 0.1533,0.4635,0.2344,0.2345,0.9879
 ```
 
-Please email your predictions to mealrec@163.com .
+Please email your predictions including your teamname and affiliation to mealrec@163.com .
 
 ## Contact
 
