@@ -54,7 +54,7 @@ The papers accepted by DASFAA 2023 workshop will be published in a combined volu
 
 ## Data Description
 
-The Data is hosted on  [the shared task github page](https://markdown.com.cn). The suit of MealRec datasets we released contains two datasets, MealRec-77 with a user-meal interaction density of 0.77% and MealRec-17 with a user-meal interaction density of 0.17%.  
+The Data is hosted on  [the workshop github page](https://markdown.com.cn). The suit of MealRec datasets we released contains two datasets, MealRec-77 with a user-meal interaction density of 0.77% and MealRec-17 with a user-meal interaction density of 0.17%.  
 
 Each dataset contains 4 .txt files and 2 .csv files.  The .txt files only contain the ID field to record the relationship between entities, and the .csv files contain rich description information of recipes and user reviews on recipes. The detailed description and fields   of these files are as follows: 
 
@@ -67,7 +67,7 @@ Each dataset contains 4 .txt files and 2 .csv files.  The .txt files only contai
 - meal_recipe.txt : the affiliation information between meals and recipes;
   - meal_id : meal  identifier
   - recipe_id : recipe  identifier
-- user_meal.txt : the interaction information between users and meals. This file is divided into training set, verification machine and test set according to the ratio of 8:1:1. The training set and verification set have been given, and the test set will be given later;
+- user_meal.txt : the interaction information between users and meals. This file is divided into training set, verification machine and test set according to the ratio of 8:1:1. The training set and verification set have been given, and the test set will be saved by us to evaluate performances. 
   - user_id : user  identifier
   - meal_id : meal  identifier
 - recipe.csv :  rich descriptive information about recipes;
@@ -89,15 +89,35 @@ Each dataset contains 4 .txt files and 2 .csv files.  The .txt files only contai
 
 ## Task
 
+This is a top-K ranking list recommendation task.  For two datasets with different densities, we will set the ranks separately.  
+
 **Input** : user-meal interaction data , user-recipe interaction data, meal-recipe affiliation data, and recipe-category corresponding data .
 
-**Ouput** : A top-$K$ ranking list for a user. 
+**Ouput** : A top-K​ ranking list for a user. 
 
 ## Evaluation
 
-Two widely used metrics $Recall@K$ and $NDCG@K$ ($K = 20, 40, 80$) are employed to evaluate the top-$K$ recommendation performance.  $Recall$ measures the ratio of test bundles within the top-$K$ ranking list, and $NDCG$(Normalized Discounted Cumulative Gain) accounts for the position of the hits by assigning higher scores to those at top ranks. 
+Two widely used metrics Recall@K and NDCG@K (K = 20, 40, 80) are employed to evaluate the top-K recommendation performance.  Recall measures the ratio of test bundles within the top-K ranking list, and NDCG (Normalized Discounted Cumulative Gain) accounts for the position of the hits by assigning higher scores to those at top ranks. 
+
+The task based on MealRec-17 and the task based on MealRec-77 are evaluated separately. 
+
+## How to participate
+
+Download our released data, build your own models, and submit your predictions as required. 
+
+You need to submit .txt files and indicate the dataset used in file names (such as "MealRec-17_prediction.txt"). A user's predicted interaction likelihood for each meal is one row, sorted by the user index in the data.  The predicted value of each meal is sorted by meal index and separated by ",".  
+
+An example of 3 users and 5 meals is as follows:
+
+```txt
+0.1110,0.0340,0.0000,0.8600,0.1092
+0.9812,0.1231,0.4532,0.1233,0.0023
+0.1533,0.4635,0.2344,0.2345,0.9879
+```
+
+Please email your predictions to mealrec@163.com .
 
 ## Contact
 
-If you need to contact the organisers, send us an email at cathylilin@whut.edu.cn.
+If you need to contact the organisers, send us an email at cathylilin@whut.edu.cn .
 
