@@ -54,7 +54,7 @@ The papers accepted by DASFAA 2023 workshop will be published in a combined volu
 
 ## Data Description
 
-The Data is hosted on  [the workshop github page](https://markdown.com.cn). The suit of MealRec datasets we released contains two datasets, MealRec-77 with a user-meal interaction density of 0.77% and MealRec-17 with a user-meal interaction density of 0.17%.  
+The data is hosted on  [the workshop github page](https://markdown.com.cn). The suit of MealRec datasets we released contains two datasets, MealRec-77 with a user-meal interaction density of 0.77% and MealRec-17 with a user-meal interaction density of 0.17%.  
 
 Each dataset contains 4 .txt files and 2 .csv files.  The .txt files only contain the ID field to record the relationship between entities, and the .csv files contain rich description information of recipes and user reviews on recipes. The detailed description and fields   of these files are as follows: 
 
