@@ -117,6 +117,19 @@ An example of 3 users and 5 meals is as follows:
 
 Please email your predictions including your teamname and affiliation to mealrec@163.com .
 
+## Baseline
+
+We choose [Bundle Graph Convolutional Network (BGCN)](https://doi.org/10.1145/3397271.3401198) as the baseline for this task. The code of BGCN is publicly available on [the author's github](https://github.com/cjx0525/BGCN). 
+
+BGCN is a bundle recommendation solution based on graph neural network, explicitly re-constructing the two kinds of interaction and an affiliation into the graph. With item nodes as the bridge, graph convolutional propagation between user and bundle nodes makes the learned representations capture the item level semantics.
+
+We test performances of BGCN on Mealrec-77 and Mealrec-17 respectively, and the results are as follows. 
+
+| Dataset    | Recall@20 | NDCG@20 | Recall@40 | NDCG@40 | Recall@80 | NDCG@80 |
+| ---------- | --------- | ------- | --------- | ------- | --------- | ------- |
+| MealRec-17 | 0.0841    | 0.0402  | 0.1200    | 0.0483  | 0.1810    | 0.0599  |
+| MealRec-77 | 0.2267    | 0.1415  | 0.3131    | 0.1629  | 0.4095    | 0.1854  |
+
 ## Contact
 
 If you need to contact the organisers, send us an email at cathylilin@whut.edu.cn .
