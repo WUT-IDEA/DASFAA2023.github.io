@@ -38,9 +38,9 @@ This workshop issues a suit of MealRec datasets with different interaction densi
 
 * Training data ready: November 15 2022
 * Test evaluation starts: December 15, 2022
-* Paper submission due: TBD
-* Notification of Acceptance: TBD
-* Camera-Ready Papers Due: TBD
+* Paper submission due: January 15, 2023
+* Notification of Acceptance: February 17, 2023
+* Camera-Ready Papers Due: March, 01, 2023
 * Workshop date: April 17, 2023
 
 
@@ -67,7 +67,7 @@ Each dataset contains 4 .txt files and 2 .csv files.  The .txt files only contai
 - meal_recipe.txt : the affiliation information between meals and recipes;
   - meal_id : meal  identifier
   - recipe_id : recipe  identifier
-- user_meal.txt : the interaction information between users and meals. This file is divided into training set, verification machine and test set according to the ratio of 8:1:1. The training set and verification set have been given, and the test set will be saved by us to evaluate performances. 
+- user_meal.txt : the interaction information between users and meals. This file is divided into training set, verification set and test set according to the ratio of 8:1:1. The training set and verification set have been given, and the test set will be saved by us to evaluate performances. 
   - user_id : user  identifier
   - meal_id : meal  identifier
 - recipe.csv :  rich descriptive information about recipes;
@@ -123,7 +123,7 @@ We choose [Bundle Graph Convolutional Network (BGCN)](https://doi.org/10.1145/33
 
 BGCN is a bundle recommendation solution based on graph neural network, explicitly re-constructing the two kinds of interaction and an affiliation into the graph. With item nodes as the bridge, graph convolutional propagation between user and bundle nodes makes the learned representations capture the item level semantics.
 
-We test performances of BGCN on Mealrec-77 and Mealrec-17 respectively, and the results are as follows. 
+We test performances of BGCN on MealRec-77 and MealRec-17 respectively, and the results are as follows. 
 
 | Dataset    | Recall@20 | NDCG@20 | Recall@40 | NDCG@40 | Recall@80 | NDCG@80 |
 | ---------- | --------- | ------- | --------- | ------- | --------- | ------- |
