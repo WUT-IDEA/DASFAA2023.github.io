@@ -43,6 +43,13 @@ This workshop issues a suit of MealRec datasets with different interaction densi
 * Camera-Ready Papers Due: March, 01, 2023
 * Workshop date: April 17, 2023
 
+## Submission Instructions
+
+Submissions must be original (not previously published and not under review in other forums). This applies to papers on all tracks of the conference. Authors are advised to interpret these limitations strictly and to contact the PC chairs in case of doubt. Paper submission must be in English. The page limits for regular papers are 16 pages, including all figures, tables, and references. All accepted papers MUST follow strictly the instructions for LNCS Authors. Springer LNCS site offers style files and information:
+https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
+
+Each accepted paper must be accompanied by at least one full registration, and an author is expected to present the paper at the conference, otherwise, the paper will be removed from the proceedings and the LNCS digital library. Submission Link : https://cmt3.research.microsoft.com/BundleRS2023
+
 
 ## Publication
 
