@@ -137,6 +137,24 @@ We test performances of BGCN on MealRec-77 and MealRec-17 respectively, and the 
 | MealRec-17 | 0.0841    | 0.0402  | 0.1200    | 0.0483  | 0.1810    | 0.0599  |
 | MealRec-77 | 0.2267    | 0.1415  | 0.3131    | 0.1629  | 0.4095    | 0.1854  |
 
+## Leaderboard
+
+#### MealRec-17
+
+| **Rank** | **Team Name** | **Affiliation**              | **Recall@20** | **NDCG@20** | **Recall@40** | **NDCG@40** | **Recall@80** | **NDCG@80** |
+| -------- | ------------- | :--------------------------- | ------------- | ----------- | ------------- | ----------- | ------------- | ----------- |
+| 1        | Reset         | Shandong Normal University   | 0.1474        | 0.0868      | 0.1881        | 0.0962      | 0.2465        | 0.1073      |
+| 2        | Firework      | Shandong Normal University   | 0.1344        | 0.0812      | 0.1899        | 0.0935      | 0.2434        | 0.1035      |
+| 3        | SDJTU_1       | Shandong Jiaotong University | 0.0941        | 0.0432      | 0.1224        | 0.0494      | 0.1790        | 0.0603      |
+
+#### MealRec-77
+
+| **Rank** | **Team Name** | **Affiliation**              | **Recall@20** | **NDCG@20** | **Recall@40** | **NDCG@40** | **Recall@80** | **NDCG@80** |
+| -------- | ------------- | ---------------------------- | ------------- | ----------- | ------------- | ----------- | ------------- | ----------- |
+| 1        | Reset         | Shandong Normal University   | 0.3654        | 0.2342      | 0.4601        | 0.2604      | 0.5812        | 0.2886      |
+| 2        | Firework      | Shandong Normal University   | 0.2528        | 0.1574      | 0.3476        | 0.1815      | 0.4518        | 0.2052      |
+| 3        | SDJTU_1       | Shandong Jiaotong University | 0.2060        | 0.1285      | 0.2818        | 0.1476      | 0.3778        | 0.1693      |
+
 ## Contact
 
 If you need to contact the organisers, send us an email at cathylilin@whut.edu.cn .
