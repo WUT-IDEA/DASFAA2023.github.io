@@ -139,6 +139,8 @@ We test performances of BGCN on MealRec-77 and MealRec-17 respectively, and the 
 
 ## Leaderboard
 
+\* One member of the first-place team will be sponsored to attend the conference for free.
+
 #### MealRec-17
 
 | **Rank** | **Team Name** | **Recall@20** | **NDCG@20** | **Recall@40** | **NDCG@40** | **Recall@80** | **NDCG@80** |
