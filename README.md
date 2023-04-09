@@ -43,7 +43,7 @@ This workshop issues a suit of MealRec datasets with different interaction densi
 * Camera-Ready Papers Due: March, 01, 2023
 * Workshop date: April 17, 2023
 
-## Agenda
+## Program
 
 **15:30-17:00, 17 April, 2023**
 
