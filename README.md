@@ -43,6 +43,20 @@ This workshop issues a suit of MealRec datasets with different interaction densi
 * Camera-Ready Papers Due: March, 01, 2023
 * Workshop date: April 17, 2023
 
+## Agenda
+
+**15:30-17:00, 17 April, 2023**
+
+|             | 15:30-16:30  Technical Showcase                              |
+| ----------- | :----------------------------------------------------------- |
+| 15:30-15:45 | Team：NUDT-WIN                                               |
+|             | Team：Bugmaker                                               |
+|             | **16:30-17:30  Paper Oral Presentation**                     |
+| 16:30-16:45 | C3BR: Category-aware Cross-view Contrastive Learning Framework <br />for Bundle Recommendation |
+| 16:45-17:00 | Vessel trajectory segmentation: A survey                     |
+| 17:00-17:15 | Deep Normalization Cross-modal Retrieval for Trajectory and Image Matching |
+| 17:15-17:30 | Mobile Application Ranking with Transductive Transfer Learning |
+
 ## Submission Instructions
 
 Submissions must be original (not previously published and not under review in other forums). This applies to papers on all tracks of the conference. Authors are advised to interpret these limitations strictly and to contact the PC chairs in case of doubt. Paper submission must be in English. The page limits for regular papers are 16 pages, including all figures, tables, and references. All accepted papers MUST follow strictly the instructions for LNCS Authors. Springer LNCS site offers style files and information:
