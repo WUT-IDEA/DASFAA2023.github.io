@@ -47,15 +47,15 @@ This workshop issues a suit of MealRec datasets with different interaction densi
 
 **15:30-17:00, 17 April, 2023**
 
-|             | 15:30-16:30  Technical Showcase                              |
+|             | 15:30-16:00  Technical Showcase                              |
 | ----------- | :----------------------------------------------------------- |
 | 15:30-15:45 | Team：NUDT-WIN                                               |
-|             | Team：Bugmaker                                               |
-|             | **16:30-17:30  Paper Oral Presentation**                     |
-| 16:30-16:45 | C3BR: Category-aware Cross-view Contrastive Learning Framework <br />for Bundle Recommendation |
-| 16:45-17:00 | Vessel trajectory segmentation: A survey                     |
-| 17:00-17:15 | Deep Normalization Cross-modal Retrieval for Trajectory and Image Matching |
-| 17:15-17:30 | Mobile Application Ranking with Transductive Transfer Learning |
+| 15:45-16:00 | Team：Bugmaker                                               |
+|             | **16:00-17:00  Paper Oral Presentation**                     |
+| 16:00-16:15 | C3BR: Category-aware Cross-view Contrastive Learning Framework <br />for Bundle Recommendation |
+| 16:15-16:30 | Vessel trajectory segmentation: A survey                     |
+| 16:30-16:45 | Deep Normalization Cross-modal Retrieval for Trajectory and Image Matching |
+| 16:45-17:00 | Mobile Application Ranking with Transductive Transfer Learning |
 
 ## Submission Instructions
 
