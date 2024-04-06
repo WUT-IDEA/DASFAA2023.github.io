@@ -106,7 +106,9 @@ Each dataset contains 4 .txt files and 2 .csv files.  The .txt files only contai
   - user_id : user identifier 
   - recipe_id : recipe identifier 
   - rating : user ratings for the recipe(five-point scale) 
-  - dateLastModified : the time the user review was last modified 
+  - dateLastModified : the time the user review was last modified
+
+**News:The latest version of this dataset has been released, and realted paper has been accepted by SIGIR 2024. Please see it in https://github.com/WUT-IDEA/MealRecPlus**
 
 ## Task
 
